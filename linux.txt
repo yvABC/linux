@@ -1,0 +1,21 @@
+Welcome to Cloud Shell! Type "help" to get started.
+To set your Cloud Platform project in this session use “gcloud config set project [PROJECT_ID]”
+vyash4266@cloudshell:~$ pwd
+/home/vyash4266
+vyash4266@cloudshell:~$ ls 
+README-cloudshell.txt
+vyash4266@cloudshell:~$ mkdir yash verma
+vyash4266@cloudshell:~$ ls
+README-cloudshell.txt  verma  yash
+vyash4266@cloudshell:~$ mkdir yash
+mkdir: cannot create directory ‘yash’: File exists
+vyash4266@cloudshell:~$ mkdir abc
+vyash4266@cloudshell:~$ cd abc/
+vyash4266@cloudshell:~/abc$ pwd
+/home/vyash4266/abc
+vyash4266@cloudshell:~/abc$ touch movie.txt
+vyash4266@cloudshell:~/abc$ ls
+movie.txt
+vyash4266@cloudshell:~/abc$ pwd
+/home/vyash4266/abc
+vyash4266@cloudshell:~/abc$ 
