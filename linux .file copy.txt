@@ -1,0 +1,36 @@
+vyash4266@cloudshell:~$ pwd
+ abc  NetrwTreeListing                                                                                                                                                     X
+/home/vyash4266
+vyash4266@cloudshell:~$ ls
+abc  README-cloudshell.txt  verma  yash
+vyash4266@cloudshell:~$ mkdir rohit  anjali
+
+vyash4266@cloudshell:~$ ls
+
+abc  anjali  README-cloudshell.txt  rohit  verma  yash
+vyash4266@cloudshell:~$ ls /home
+lost+found  vyash4266
+vyash4266@cloudshell:~$ /home/vyash4266
+-bash: /home/vyash4266: Is a directory
+vyash4266@cloudshell:~$ ls
+abc  anjali  README-cloudshell.txt  rohit  verma  yash
+vyash4266@cloudshell:~$ touch movie.txt 20 lakh.txt
+vyash4266@cloudshell:~$ ls
+20  abc  anjali  lakh.txt  movie.txt  README-cloudshell.txt  rohit  verma  yash
+vyash4266@cloudshell:~$ ls /home/vyash4266/rohit
+vyash4266@cloudshell:~$ ls
+20  abc  anjali  lakh.txt  movie.txt  README-cloudshell.txt  rohit  verma  yash
+vyash4266@cloudshell:~$ la /home/vyash4266/anjali
+vyash4266@cloudshell:~$ ls/home/vyash4266/anjali
+-bash: ls/home/vyash4266/anjali: No such file or directory
+vyash4266@cloudshell:~$ cp /home/vyash4266/rohit/20lakh.txt
+cp: missing destination file operand after '/home/vyash4266/rohit/20lakh.txt'
+Try 'cp --help' for more information.
+vyash4266@cloudshell:~$ touch abc.txt
+vyash4266@cloudshell:~$ cat abc.txt
+vyash4266@cloudshell:~$ vi abc .txt
+2 files to edit
+
+[1]+  Stopped                 vi abc .txt
+vyash4266@cloudshell:~$ cat abc.txt
+vyash4266@cloudshell:~$ vi abc.txt
